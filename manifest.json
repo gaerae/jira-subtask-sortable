@@ -1,0 +1,27 @@
+{
+   "manifest_version": 2,
+   "name": "JIRA Subtask Sortable",
+   "name": "JIRA Subtask Sortable",
+   "short_name": "JIRA Subtask DnD",
+   "description": "Drag and drop to reorder subtasks.",
+   "version": "0.1",
+
+   "browser_action": {
+      "default_icon": "images/icon32.png"
+   },
+   "permissions": [ "tabs", "http://*/browse/*", "https://*/browse/*" ],
+   "content_scripts": [ {
+      "js": [ "js/jquery-3.0.0.min.js", "js/jquery-ui.min.js", "js/jira-subtask-sortable.js" ],
+      "matches": [ "http://*/browse/*", "https://*/browse/*" ]
+   } ],
+   "icons": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "64": "images/icon64.png",
+      "128": "images/icon128.png"
+   },
+   "author": "gaerae.com",
+   "homepage_url": "https://github.com/gaerae/jira-subtask-sortable",
+   "update_url": "https://clients2.google.com/service/update2/crx"
+}
