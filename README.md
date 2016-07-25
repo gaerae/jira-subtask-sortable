@@ -1,5 +1,5 @@
 # JIRA Subtask Sortable
-[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-v0.2-orange.svg)](https://chrome.google.com/webstore/detail/hcidkmckdnbkbjghgcgeikdoljdhlimb)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-v0.3-orange.svg)](https://chrome.google.com/webstore/detail/hcidkmckdnbkbjghgcgeikdoljdhlimb)
 
 지라 서브 테스크를 드래그&드롭으로 정렬 순서를 변경할 수 있습니다.
 

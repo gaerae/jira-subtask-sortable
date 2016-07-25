@@ -1,5 +1,5 @@
 (function () {
-  "use strict";
+  'use strict';
   var app;
   app = {
     oldTableRows: {},
@@ -18,7 +18,7 @@
      * @description Attach events
      */
     delegate: function() {
-      // Drang and drop
+      // Drag and drop
       $('#issuetable>tbody>tr').css('cursor', '-webkit-grab');
       $('#issuetable>tbody').sortable({
         placeholder: 'ui-state-highlight',
@@ -58,8 +58,11 @@
      * @description Initialize background page
      */
     init: function() {
-      app.delegate();
+      if (document.body.hasAttribute('id') && document.body.getAttribute('id') == 'jira') {
+        app.delegate();
+      }
     }
-  }
+  };
   app.init();
 }());
+
