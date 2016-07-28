@@ -1,7 +1,6 @@
 (function () {
   'use strict';
-  var app;
-  app = {
+  var app = {
     oldTableRows: {},
     newTableRows: {},
     /**
@@ -23,14 +22,15 @@
       $('#issuetable>tbody').sortable({
         placeholder: 'ui-state-highlight',
         opacity: 0.65,
+        cursor: '-webkit-grabbing',
         start: function() {
           app.oldTableRows = app.getTableRows();
         },
         stop: function(event, ui) {
           app.newTableRows = app.getTableRows();
-          for (var i = 0; i <= app.newTableRows.length; i++) {
-            if (ui.item[0].id == app.oldTableRows[i]) var oldRowId = i;
-            if (ui.item[0].id == app.newTableRows[i]) var newRowId = i;
+          for (var tempRowId = 0; tempRowId <= app.newTableRows.length; tempRowId++) {
+            if (ui.item[0].id == app.oldTableRows[tempRowId]) var oldRowId = tempRowId;
+            if (ui.item[0].id == app.newTableRows[tempRowId]) var newRowId = tempRowId;
           }
 
           // Reorder for current page
@@ -52,7 +52,6 @@
           $.get('/secure/MoveIssueLink.jspa?id='+$('#key-val').attr('rel')+'&currentSubTaskSequence='+oldRowId+'&subTaskSequence='+newRowId);
         }
       });
-      $('#issuetable>tbody').disableSelection();
     },
     /**
      * @description Initialize background page

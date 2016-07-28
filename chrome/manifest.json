@@ -3,11 +3,11 @@
   "default_locale": "en",
   "name": "__MSG_appName__",
   "description": "__MSG_appDesc__",
-  "version": "0.3",
+  "version": "1.0",
   "permissions": ["declarativeContent", "activeTab", "http://*/browse/*", "https://*/browse/*"],
   "content_scripts": [{
     "all_frames": false,
-    "js": ["js/jquery-3.0.0.min.js", "js/jquery-ui.min.js"],
+    "js": ["js/jquery-3.1.0.min.js", "js/jquery-ui.min.js"],
     "matches": ["http://*/browse/*", "https://*/browse/*"],
     "run_at": "document_end"
   }],

@@ -1,5 +1,9 @@
 # JIRA Subtask Sortable
-[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-v0.3-orange.svg)](https://chrome.google.com/webstore/detail/hcidkmckdnbkbjghgcgeikdoljdhlimb)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/hcidkmckdnbkbjghgcgeikdoljdhlimb.svg?maxAge=2592000)](https://chrome.google.com/webstore/detail/hcidkmckdnbkbjghgcgeikdoljdhlimb)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/d/hcidkmckdnbkbjghgcgeikdoljdhlimb.svg?maxAge=2592000)](https://chrome.google.com/webstore/detail/hcidkmckdnbkbjghgcgeikdoljdhlimb)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/price/hcidkmckdnbkbjghgcgeikdoljdhlimb.svg?maxAge=2592000)](https://chrome.google.com/webstore/detail/hcidkmckdnbkbjghgcgeikdoljdhlimb)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/hcidkmckdnbkbjghgcgeikdoljdhlimb.svg?maxAge=2592000)](https://chrome.google.com/webstore/detail/hcidkmckdnbkbjghgcgeikdoljdhlimb)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/rating-count/hcidkmckdnbkbjghgcgeikdoljdhlimb.svg?maxAge=2592000)](https://chrome.google.com/webstore/detail/hcidkmckdnbkbjghgcgeikdoljdhlimb)
 
 지라 서브 테스크를 드래그&드롭으로 정렬 순서를 변경할 수 있습니다.
 
@@ -20,3 +24,7 @@ For support please create an issue here at GitHub
 ## Pull Requests
 Feel free to submit any Pull Requests here.
 Please indent using two spaces only, have a newline at the EOF and use UNIX line ending, thanks!
+
+## Screenshot
+![JIRA Subtask Sortable](./other/capture1280x800.png)
+
