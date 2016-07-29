@@ -1,15 +1,14 @@
 # JIRA Subtask Sortable
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/hcidkmckdnbkbjghgcgeikdoljdhlimb.svg?maxAge=2592000)](https://chrome.google.com/webstore/detail/hcidkmckdnbkbjghgcgeikdoljdhlimb)
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/d/hcidkmckdnbkbjghgcgeikdoljdhlimb.svg?maxAge=2592000)](https://chrome.google.com/webstore/detail/hcidkmckdnbkbjghgcgeikdoljdhlimb)
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/price/hcidkmckdnbkbjghgcgeikdoljdhlimb.svg?maxAge=2592000)](https://chrome.google.com/webstore/detail/hcidkmckdnbkbjghgcgeikdoljdhlimb)
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/hcidkmckdnbkbjghgcgeikdoljdhlimb.svg?maxAge=2592000)](https://chrome.google.com/webstore/detail/hcidkmckdnbkbjghgcgeikdoljdhlimb)
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/rating-count/hcidkmckdnbkbjghgcgeikdoljdhlimb.svg?maxAge=2592000)](https://chrome.google.com/webstore/detail/hcidkmckdnbkbjghgcgeikdoljdhlimb)
 
 지라 서브 테스크를 드래그&드롭으로 정렬 순서를 변경할 수 있습니다.
 
 "JIRA Subtask Sortable" is a subtle enhancement for JIRA Subtasks. This allows you to move them by dragging and dropping, rather than using the annoying little arrows. After you've dragged the subtask to the desired location, its location will be transparently saved so no reloading is required.
 
-* Download for [Google Chrome Extension](https://chrome.google.com/webstore/detail/hcidkmckdnbkbjghgcgeikdoljdhlimb)
+## Installation
+
+Available for installation from the Chrome Extension Store.
+
+[<img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png">](https://chrome.google.com/webstore/detail/jira-subtask-sortable/hcidkmckdnbkbjghgcgeikdoljdhlimb)
 
 ## Features
 * drag and drop for subtask
