@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Options</title>
+  <meta charset="utf-8">
+  <style>
+    html,body{margin:0; padding:10px;}
+    h1{margin:0 0 20px 0px; display:block; line-height:20px; height:20px; float:left;}
+    p{clear:both;}
+    textarea{width: 300px;}
+    button{
+      margin-top: 10px;
+      width: 300px;
+      background-color: #555555;
+      border: none;
+      color: white;
+      padding: 10px 5px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1 data-i18n="options">Options</h1>
+
+  <p data-i18n="urlWhiteListDesc">Here's a whitelist of websites where jira subtask should appear:</p>
+  <textarea id="urlWhiteList" rows="10" cols="50"></textarea>
+<div>
+    <button id="save" data-i18n="save">Save</button>
+    <p id="status"></p>
+  </div>
+</body>
+<script src="js/options.js"></script>
+</html>

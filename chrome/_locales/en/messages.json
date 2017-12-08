@@ -6,5 +6,14 @@
   "appDesc": {
     "message": "Drag and drop to reorder subtasks.",
     "description": "The description of the application, displayed in the web store."
-  }
+  },
+  "options": {
+    "message": "Options"
+  },
+  "urlWhiteListDesc": {
+      "message": "Here's a whitelist of websites where extensions should appear:"
+   },
+   "save": {
+      "message": "Save"
+   }
 }

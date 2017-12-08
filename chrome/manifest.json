@@ -3,8 +3,8 @@
   "default_locale": "en",
   "name": "__MSG_appName__",
   "description": "__MSG_appDesc__",
-  "version": "1.0",
-  "permissions": ["declarativeContent", "activeTab", "http://*/browse/*", "https://*/browse/*"],
+  "version": "2.0.0",
+  "permissions": ["declarativeContent", "activeTab", "storage", "http://*/browse/*", "https://*/browse/*"],
   "content_scripts": [{
     "all_frames": false,
     "js": ["js/jquery-3.1.0.min.js", "js/jquery-ui.min.js"],
@@ -12,9 +12,13 @@
     "run_at": "document_end"
   }],
   "background": {
-    "scripts": ["js/background.js"],
-    "persistent": false
+    "scripts": ["js/background.js"]
   },
+  "options_page": "options.html",
+  "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
   "icons": {
     "16": "images/icon16.png",
     "32": "images/icon32.png",
